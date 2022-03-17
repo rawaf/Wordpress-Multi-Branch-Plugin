@@ -1,0 +1,34 @@
+/*
+ * Wp Branch Public Styles
+ * Styled used for the front-end of the website
+ */
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; /
+}
+.cf:after {
+    clear: both;
+}
+
+/*branch listing*/
+.branch_list{
+	float: left;
+	width: 100%;
+}
+.branch_list .branch{
+	float: left;
+	width: 100%;
+}
+.branch_list .branch img{
+	margin: 0px 15px 15px 0px;
+	float: left;
+}
+.branch_list .branch .phone_email{
+	clear: both;
+}
+.branch_list .branch .readmore{
+	
+}
